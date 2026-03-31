@@ -1,0 +1,20 @@
+g++ gui.cpp -o livraria_v3.exe -mwindows -DUNICODE -D_UNICODE -I C:\msys64\ucrt64\include -lmariadb -lcomctl32
+.\livraria_v3.exe
+
+g++ cliente.cpp -o cliente.exe -mwindows -DUNICODE -D_UNICODE -I C:\msys64\ucrt64\include -lmariadb -lcomctl32
+.\cliente.exe
+
+g++ vendedores.cpp -o vendedores_v2.exe -mwindows -DUNICODE -D_UNICODE -I C:\msys64\ucrt64\include -lmariadb -lcomctl32
+.\vendedores_v2.exe
+
+g++ vendas.cpp -o vendas.exe -mwindows -DUNICODE -D_UNICODE -I C:\msys64\ucrt64\include -lmariadb -lcomctl32
+.\vendas.exe
+
+g++ relatorios.cpp -o relatorios.exe -mwindows -DUNICODE -D_UNICODE -I C:\msys64\ucrt64\include -lmariadb -lcomctl32
+.\relatorios.exe
+
+g++ menu.cpp -o menu.exe -mwindows -DUNICODE -D_UNICODE -lcomctl32
+.\menu.exe
+
+g++ main.cpp -o sistema_master.exe -mwindows -DUNICODE -D_UNICODE -I C:\msys64\ucrt64\include -lmariadb -lcomctl32
+./sistema_master.exe
